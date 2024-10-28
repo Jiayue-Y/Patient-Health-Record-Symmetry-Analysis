@@ -1,2 +1,2 @@
-The time complexity of this program ranges from O(1) to O(2n).
+The time complexity of this program ranges from O(1) to O(2n), or roughly O(n).
 The space complexity is O(n).

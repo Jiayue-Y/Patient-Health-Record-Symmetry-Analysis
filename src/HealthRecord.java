@@ -62,7 +62,7 @@ public class HealthRecord {
 
         System.out.println(hr.isHealthRecordSymmetric(input));
 
-        // An even symmetrical linked list: 1 -> 2 -> 3 -> 2 -> 3 -> 1
+        // An even non-symmetrical linked list: 1 -> 2 -> 3 -> 2 -> 3 -> 1
         input.head = new Node<>(1);
         input.head.next = new Node<>(2);
         input.head.next.next = new Node<>(3);
